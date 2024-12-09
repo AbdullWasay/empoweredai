@@ -1,0 +1,33 @@
+name: empoweredai
+description: "A new Flutter project."
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  http: ^0.13.3  
+  path_provider: ^2.0.7  
+  flutter_sound: ^9.0.3
+  camera: ^0.11.0 # Ensure the version is compatible with your Flutter SDK
+  permission_handler: ^11.0.0 # Ensure it's up-to-date
+  speech_to_text: ^7.0.0 # Use the latest compatible version
+  video_player: ^2.5.0
+  flutter_tts: ^3.4.0
+  
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
